@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "animejs": "^4.0.2",
+    "canvas": "^3.1.0",
     "core-js": "^3.8.3",
+    "element-plus": "^2.9.9",
+    "gsap": "^3.13.0",
+    "useragent": "^2.3.0",
     "vue": "^3.2.13",
     "vue-router": "^4.5.1"
   },
