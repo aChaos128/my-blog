@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../views/HomePage.vue';  // 导入首页组件
-import AboutPage from '../views/AboutPage.vue';  // 导入关于页面组件
+import HomePage from '../views/HomePage.vue';
+import AboutPage from '../views/AboutPage.vue';
+import PostDetail from '../views/PostDetail.vue';
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: AboutPage,
+  },
+  {
+    path: '/post/:slug',
+    name: 'PostDetail',
+    component: PostDetail,
   },
 ];
 
